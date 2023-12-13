@@ -21,7 +21,6 @@ class QtAT4 < Formula
   deprecated_option "qtdbus" => "with-dbus"
   deprecated_option "with-d-bus" => "with-dbus"
 
-  depends_on "openssl@1.0"
   depends_on "dbus" => :optional
   depends_on "mysql" => :optional
   depends_on "postgresql" => :optional
